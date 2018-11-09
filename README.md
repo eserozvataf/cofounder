@@ -1,8 +1,10 @@
-# [cofounder](https://github.com/eserozvataf/cofounder)
+# 💾 [cofounder](https://github.com/eserozvataf/cofounder)
 
+[![build status][build-image]][build-url]
 [![npm version][npm-image]][npm-url]
 [![npm download][download-image]][npm-url]
 [![dependencies][dep-image]][dep-url]
+[![coverage status][coverage-image]][coverage-url]
 [![license][license-image]][license-url]
 
 
@@ -109,10 +111,14 @@ It is publicly open for any contribution. Bugfixes, new features and extra modul
 [Visit my patreon profile at patreon.com/eserozvataf](https://www.patreon.com/eserozvataf)
 
 
+[build-image]: https://travis-ci.org/eserozvataf/cofounder.svg?branch=master
+[build-url]: https://travis-ci.org/eserozvataf/cofounder
 [npm-image]: https://img.shields.io/npm/v/cofounder.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/cofounder
 [download-image]: https://img.shields.io/npm/dt/cofounder.svg?style=flat-square
 [dep-image]: https://img.shields.io/david/eserozvataf/cofounder.svg?style=flat-square
 [dep-url]: https://github.com/eserozvataf/cofounder
+[coverage-image]: https://coveralls.io/repos/eserozvataf/cofounder/badge.svg?branch=master
+[coverage-url]: https://coveralls.io/r/eserozvataf/cofounder?branch=master
 [license-image]: https://img.shields.io/npm/l/cofounder.svg?style=flat-square
 [license-url]: https://github.com/eserozvataf/cofounder/blob/master/LICENSE
