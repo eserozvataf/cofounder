@@ -118,7 +118,7 @@ It is publicly open for any contribution. Bugfixes, new features and extra modul
 [download-image]: https://img.shields.io/npm/dt/cofounder.svg?style=flat-square
 [dep-image]: https://img.shields.io/david/eserozvataf/cofounder.svg?style=flat-square
 [dep-url]: https://github.com/eserozvataf/cofounder
-[coverage-image]: https://coveralls.io/repos/eserozvataf/cofounder/badge.svg?branch=master
-[coverage-url]: https://coveralls.io/r/eserozvataf/cofounder?branch=master
+[coverage-image]: https://codecov.io/gh/eserozvataf/cofounder/branch/master/graph/badge.svg
+[coverage-url]: https://codecov.io/gh/eserozvataf/cofounder
 [license-image]: https://img.shields.io/npm/l/cofounder.svg?style=flat-square
 [license-url]: https://github.com/eserozvataf/cofounder/blob/master/LICENSE
