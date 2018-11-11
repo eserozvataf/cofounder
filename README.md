@@ -50,8 +50,6 @@ To initialize a CoFounder instance:
 import CoFounder from 'cofounder-node';
 // or const CoFounder = require('cofounder-node').default;
 
-const cofounder = CoFounder();
-
 cofounder.os.shell('ls');
 ```
 
