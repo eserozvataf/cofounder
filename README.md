@@ -31,11 +31,11 @@ Apart from any file system library it offers,
 
 ## Quick start
 
-Pick an implementation of cofounder listed below:
+Pick an implementation of CoFounder listed below:
 
 - [node](https://github.com/eserozvataf/cofounder-node)
 
-Then run `npm install [implementation]` to install cofounder implementation and its dependencies into your project directory.
+Then run `npm install [implementation]` to install CoFounder implementation and its dependencies into your project directory.
 
 
 ## Usage
@@ -44,13 +44,13 @@ Then run `npm install [implementation]` to install cofounder implementation and 
 
 Let's assume `cofounder-node` is our implementation,
 
-To initialize a Cofounder instance:
+To initialize a CoFounder instance:
 
 ```js
-import Cofounder from 'cofounder-node';
-// or const Cofounder = require('cofounder-node').default;
+import CoFounder from 'cofounder-node';
+// or const CoFounder = require('cofounder-node').default;
 
-const cofounder = Cofounder();
+const cofounder = CoFounder();
 
 cofounder.os.shell('ls');
 ```
