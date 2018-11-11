@@ -47,8 +47,8 @@ Let's assume `cofounder-node` is our implementation,
 To initialize a CoFounder instance:
 
 ```js
-import CoFounder from 'cofounder-node';
-// or const CoFounder = require('cofounder-node').default;
+import cofounder from 'cofounder-node';
+// or const cofounder = require('cofounder-node').default;
 
 cofounder.os.shell('ls');
 ```
