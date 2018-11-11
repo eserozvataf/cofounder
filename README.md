@@ -31,28 +31,30 @@ Apart from any file system library it offers,
 
 ## Quick start
 
-Execute `npm install cofounder` to install cofounder and its dependencies into your project directory.
+Pick an implementation of cofounder listed below:
+
+- [node](https://github.com/eserozvataf/cofounder-node)
+
+Then run `npm install [implementation]` to install cofounder implementation and its dependencies into your project directory.
 
 
 ## Usage
 
 ### Basics
 
+Let's assume `cofounder-node` is our implementation,
+
 To initialize a Cofounder instance:
 
 ```js
-import Cofounder from 'cofounder';
-// or const Cofounder = require('cofounder').default;
+import Cofounder from 'cofounder-node';
+// or const Cofounder = require('cofounder-node').default;
 
-const cofounder = Cofounder('node');
+const cofounder = Cofounder();
 
 cofounder.os.shell('ls');
 ```
 
-
-## List of file systems
-
-- node
 
 ## List of methods
 
@@ -81,7 +83,7 @@ cofounder.os.shell('ls');
 
 - Buffered glob copy
 - Move and rename
-- Virtual file system
+- Virtual file system implementation
 
 See [GitHub Projects](https://github.com/eserozvataf/cofounder/projects) for more.
 
