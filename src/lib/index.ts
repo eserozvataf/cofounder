@@ -26,7 +26,7 @@ interface CofounderJson {
 
 // taken from @types/cross-spawn npm package
 // thanks to Alorel for definitions (https://github.com/Alorel)
-type StdioOptions = "pipe" | "ignore" | "inherit" | Array<("pipe" | "ipc" | "ignore" | "inherit" | stream.Stream | number | null | undefined)>;
+type StdioOptions = 'pipe' | 'ignore' | 'inherit' | Array<('pipe' | 'ipc' | 'ignore' | 'inherit' | stream.Stream | number | null | undefined)>;
 
 interface SpawnOptions {
     cwd?: string;
