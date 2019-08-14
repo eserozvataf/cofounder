@@ -1,5 +1,6 @@
 /// <reference types="node" />
 import stream from 'stream';
+
 interface CofounderFs {
     cp(pathstr: string, dest: string): Promise<void>;
     cpP(str: string, dest: string): Promise<void>;
@@ -43,4 +44,7 @@ interface Cofounder {
     json: CofounderJson;
     os: CofounderOs;
 }
-export { Cofounder as default, CofounderFs, CofounderJson, CofounderOs, StdioOptions, SpawnOptions, };
+declare const library: {};
+
+export default library;
+export { Cofounder, CofounderFs, CofounderJson, CofounderOs, SpawnOptions, StdioOptions };

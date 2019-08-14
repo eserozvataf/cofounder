@@ -1,5 +1,5 @@
+/// <reference types="node" />
 import stream from 'stream';
-
 interface CofounderFs {
     cp(pathstr: string, dest: string): Promise<void>;
     cpP(str: string, dest: string): Promise<void>;
@@ -18,16 +18,11 @@ interface CofounderFs {
     writeFile(pathstr: string, content: string, options?: Object): Promise<void>;
     writeFileP(pathstr: string, content: string, options?: Object): Promise<void>;
 }
-
 interface CofounderJson {
     loadFile(pathstr: string): Promise<any>;
     saveFile(pathstr: string, objectContent: any): Promise<void>;
 }
-
-// taken from @types/cross-spawn npm package
-// thanks to Alorel for definitions (https://github.com/Alorel)
-type StdioOptions = 'pipe' | 'ignore' | 'inherit' | Array<('pipe' | 'ipc' | 'ignore' | 'inherit' | stream.Stream | number | null | undefined)>;
-
+declare type StdioOptions = 'pipe' | 'ignore' | 'inherit' | Array<('pipe' | 'ipc' | 'ignore' | 'inherit' | stream.Stream | number | null | undefined)>;
 interface SpawnOptions {
     cwd?: string;
     env?: NodeJS.ProcessEnv;
@@ -40,22 +35,13 @@ interface SpawnOptions {
     windowsVerbatimArguments?: boolean;
     windowsHide?: boolean;
 }
-
 interface CofounderOs {
     shell(command: string, args: Array<any>, options: SpawnOptions): Promise<any>;
 }
-
 interface Cofounder {
     fs: CofounderFs;
     json: CofounderJson;
     os: CofounderOs;
 }
-
-export {
-    Cofounder as default,
-    CofounderFs,
-    CofounderJson,
-    CofounderOs,
-    StdioOptions,
-    SpawnOptions,
-};
+declare const library: {};
+export { library as default, Cofounder, CofounderFs, CofounderJson, CofounderOs, StdioOptions, SpawnOptions, };
